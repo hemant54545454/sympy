@@ -1,5 +1,5 @@
 language: python
-sudo: true
+sudo: false
 env:
   matrix:
   - TEST_DOCTESTS="true" FASTCACHE="false" TEST_SETUP="true"
